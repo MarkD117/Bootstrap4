@@ -199,3 +199,44 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Table */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+.content-table thead {
+    font-size: 1.1em;
+}
+
+.content-table thead tr {
+    background-color: #f05f40;
+    color: white;
+    text-align: center;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+/* Adds style to every other table row */
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #e0e0e0;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #f05f40
+}
