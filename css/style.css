@@ -11,46 +11,7 @@ body {
     color: white;
 }
 
-/* Alert */
-
-.alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    border-radius: 0;
-    margin-bottom: 0;
-    padding: 5px 15px;
-    background-color: #eec802;
-    border-color: #eec802;
-    /* color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0; */
-}
-
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* Quotes */
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
+.alert-container {}
 
 .callout-container {
     height: 100vh;
@@ -60,7 +21,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,6 +36,11 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -99,7 +65,7 @@ body {
     border: 0;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     font-weight: bold;
 }
 
@@ -107,16 +73,29 @@ body {
     font-weight: bold;
 }
 
-.quotes-container {
 
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
 }
 
-.features-container {
-
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
 }
 
-.monthly-favourites-container {
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
 
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
 
 /* Block dividers */
@@ -140,39 +119,8 @@ body {
     width: 35px;
 }
 
-/* Content containers */
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-/* Jumbotron */
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.jumbotron .lead {
-    color: #a7a7a7;
-    margin: 25px 0;
-}
-
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
-}
-
 /* Buttons */
 
-/* button Call To Action */
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -192,6 +140,41 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+/* Alert */
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 /* Features */
