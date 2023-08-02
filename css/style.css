@@ -219,7 +219,7 @@ body {
 .content-table thead tr {
     background-color: #f05f40;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .content-table th,
@@ -229,7 +229,6 @@ body {
 
 .content-table tbody tr {
     border-bottom: 1px solid #dddddd;
-    text-align: center;
 }
 
 /* Adds style to every other table row */
