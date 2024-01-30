@@ -239,3 +239,10 @@ body {
 .content-table tbody tr:last-of-type {
     border-bottom: 2px solid #f05f40
 }
+
+.footer-hr {
+    width: 60%;
+    height: 2px;
+    border: 0;
+    background-color: #444;
+}
