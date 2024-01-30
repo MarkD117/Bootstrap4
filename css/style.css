@@ -4,14 +4,10 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
-
-.alert-container {}
 
 .callout-container {
     height: 100vh;
@@ -246,3 +242,7 @@ body {
     border: 0;
     background-color: #444;
 }
+
+  #mc_embed_signup form {
+    margin: 0;
+  }
